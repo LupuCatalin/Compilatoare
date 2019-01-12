@@ -1,0 +1,20 @@
+program abc var 
+a1,a2,a3: integer;
+b1,b2,b3: integer 
+begin 
+read(a2);
+read(a1);
+a3:=(a1+4+3)*(4+5);
+a2:=1+2+3+4*5+10;
+b1:=a1;
+b3:=b1;
+for b2:=1 to a1 do
+begin
+for b2:=1 to a1 do
+begin
+b3:=b3-b2
+end;
+b3:=b3-b2
+end;
+write(a1)
+end.                          

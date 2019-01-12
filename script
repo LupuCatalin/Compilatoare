@@ -1,0 +1,5 @@
+
+yacc -d tema.y
+lex tema.l
+g++ lex.yy.c y.tab.c -o tema -lfl
+./tema <in.txt
